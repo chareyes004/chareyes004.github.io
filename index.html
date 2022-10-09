@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dashboad HTML CSS and JS </title>
+    <!--MATERIAL ICON-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="./landscape2.jpg">
+                    <h2>TEAM DASH<span class="danger">BOARD</span></h2>
+                </div>
+                <div class="close" id="close-btn"> 
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp"> grid_view </span>
+                    <h3>Dashboad</h3>
+                </a>
+               
+                <a href="#" class="active">
+                    <span class="material-icons-sharp"> person_outline </span>
+                    <h3>Players</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp"> receipt_long </span>
+                    <h3>Visits</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp"> analytics </span>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp"> mail_outlinee </span>
+                    <h3>Messages</h3>
+                    <span class="message-count">26</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp"> inventory </span>
+                    <h3>Rosters</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">mark_email_unread</span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp"> settings </span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp"> add </span>
+                    <h3>Add Players</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp"> logout</span>
+                    <h3>Logout</h3>
+                </a>
+                
+            </div>
+        </aside>
+        <!-------------------END OF ASIDEE---------------->
+        <main>
+            <h1>Dashborad</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-icons-sharp">analytics</span>
+                    <div class="middle">
+                        <div class="left">
+                             <h3>Total Visits</h3>
+                                <h1>514,024</h1>
+                        </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx='38' cy='38' r='36'></circle>
+                        </svg>
+                        <div class="number">
+                            <p>81%</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <small class="text-muted">Last 24 Hours</small>
+            </div>
+            <!----------------END of Saless--------------->
+            <div class="expenses">
+                <span class="material-icons-sharp">analytics</span>
+                <div class="middle">
+                    <div class="left">
+                         <h3>Total Expenses</h3>
+                            <h1>$24,024</h1>
+                        
+                </div>
+                <div class="progress">
+                    <svg>
+                        <circle cx='38' cy='38' r='36'></circle>
+                    </svg>
+                    <div class="number">
+                        <p>61%</p>
+                    </div>
+                </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+        </div>
+        <!----------------END of Expenses--------------->
+        <div class="income">
+            <span class="material-icons-sharp">stacked_line_chart</span>
+            <div class="middle">
+                <div class="left">
+                     <h3>Total Income</h3>
+                        <h1>$60,024</h1>
+            </div>
+            <div class="progress">
+                <svg>
+                    <circle cx='38' cy='38' r='36'></circle>
+                </svg>
+                <div class="number">
+                    <p>51%</p>
+                </div>
+            </div>
+        </div>
+        <small class="text-muted">Last 24 Hours</small>
+        </div>
+            </div>
+
+            <!---------------------------------emd of isiights--------------------------------------->
+        
+            <div class="recent-orders">
+                <h2> Player Status</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Player Name</th>
+                            <th>Player Number</th>
+                            <th>PPG</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lebron Games</td>
+                            <td>6</td>
+                            <td>30.3</td>
+                            <td class="warning">Playing</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Michael Jordan</td>
+                            <td>23</td>
+                            <td>30.1</td>
+                            <td class="warning">Retired</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Kobe Bryant</td>
+                            <td>8</td>
+                            <td>22.5</td>
+                            <td class="warning">Retired</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Shaquille O Neal</td>
+                            <td>34</td>
+                            <td>33.0</td>
+                            <td class="warning">Retired</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Charles Delos Reyes</td>
+                            <td>13</td>
+                            <td>33.0</td>
+                            <td class="warning">Retired</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Show More</a>
+            </div>
+
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
